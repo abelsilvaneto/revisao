@@ -1,0 +1,47 @@
+### funcionario cadastrar 1
+POST http://localhost:3000/funcionario
+Content-Type: application/json
+
+{
+    "email": "paris@gmail.com",
+    "senha": "roma"
+}
+
+### funcionario cadastrar 2
+POST http://localhost:3000/funcionario
+Content-Type: application/json
+
+{
+    "email": "londres@gmail.com",
+    "senha": "newYork"
+}
+
+### funcionario cadastrar 3
+POST http://localhost:3000/funcionario
+Content-Type: application/json
+
+{
+    "email": "rio@gmail.com",
+    "senha": "barcelona"
+}
+
+### login funcionarios
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email" :  "rio@gmail.com",
+    "senha": "barcelona"
+}
+
+### cadastrar motorista
+
+POST http://localhost:3000/motorista
+Content-Type: application/json
+
+{
+    "nome" :  "joão",
+    "cnh": "45843004",
+    "cpf": "12345678901",
+    "telefone": "4355667776"
+}
